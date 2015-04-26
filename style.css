@@ -5,6 +5,9 @@
 }
 #nav li{
 	display: inline-block;
+	font-family: arial;
+	font-size: 13px;
+	margin: 0 10px;
 }
 #nav a{
 	text-decoration: none;
