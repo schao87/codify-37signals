@@ -11,6 +11,16 @@
 }
 #nav a{
 	text-decoration: none;
+	color: #369;
+}
+#nav a:hover{
+	color: #18AFE0;
+}
+.signin{
+	color: #18AFE0 !important;
+}
+.signin:hover{
+	color: #369 !important;
 }
 .navWrap{
 	width: 100%;
@@ -61,7 +71,11 @@
 	text-align: center;
 	text-decoration: none;
 	margin: 10px 25px;
-	background: #f6f6f6;
+	background: -webkit-linear-gradient(white, #f6f6f6); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(white, #f6f6f6); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(white, #f6f6f6); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(white, #f6f6f6);
+	/*background: #f6f6f6;*/
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 }
@@ -77,7 +91,7 @@
 	margin: 10px auto;
 	display: block;
 }
-.square h3{
+.square h3 span{
 	font-weight: bolder;
 	font-size: 22px;
 	color: #336699;
@@ -87,6 +101,9 @@
 	color: black;
 	font-family: arial;
 	font-size: 20px;
+}
+.square2 h3:hover{
+	color: #69c;
 }
 .squareP1{
 	color: #cc0000;
@@ -265,7 +282,8 @@ hr{
 }
 .smallWordsWrap{
 	width: 630px;
-	margin: 0 auto;
+	height: 376px;
+	margin: 0 auto 35px;
 	text-align: center;
 }
 .smallWordsColumn1{
@@ -297,8 +315,38 @@ hr{
 	font-family: arial;
 	margin-bottom: 20px;
 }
-
-
-
+.bottomLinks, .bottomLinks a{
+	text-align: center;
+	margin:	18px 0;
+	text-decoration: none;
+	font-family: arial;
+	display: block;
+}
+.bottomLinks a{
+	font-size: 14px;
+	color: #369;
+}
+.bottomLinks a:hover{
+	color: #69c;
+}
+sup{
+	font-size: 10px;
+	color: #999;
+}
+.foot{
+	font-size: 12px;
+	color: #999;
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+.foot a{
+	text-decoration: none;
+	color: #369;
+}
+.foot a:hover{
+	color:#69c;
+}
 
 
