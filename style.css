@@ -75,7 +75,6 @@
   	background: -o-linear-gradient(white, #f6f6f6); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(white, #f6f6f6); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(white, #f6f6f6);
-	/*background: #f6f6f6;*/
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 }
@@ -184,6 +183,17 @@ hr{
   	text-align: center;
 }
 .loyal{
+	text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.3em;
+  color: #666;
+  /*top:-160px;*/
+  position: relative;
+  /*float: left;*/
+  display: block;
+}
+.loyal2{
 	text-align: left;
   font-weight: 400;
   font-size: 22px;
@@ -348,5 +358,131 @@ sup{
 .foot a:hover{
 	color:#69c;
 }
+@media screen and (max-width: 640px){
+	#nav{
+		padding: 0;
+		margin: 16px auto;
+		width: 500px;
+		float: none;
+	}
+	.mainWrap{
+		width: 640px;
+	}
+	#collab, #millions, .built, .rework, .nuts{
+	font-weight: 500;
+	  font-size: 40px;
+	}
+	.squareWrap{
+		width: 640px;
+	}
+	.square{
+		margin:	10px 13px;
+	}
+	.people{
+		margin-left: 5px;
+		margin-top: 119px;
+	}
+	.loyal{
+		margin-top: 139px;
+	}
+	.arrow{
+		margin-top: -19px;
+		margin-left: 146px;
+	}
+	.companies{
+		background-size: contain;
+		width: 97%;
+	}
+	.column{
+		width: 500px;
+		font-family: arial;
+		margin: 0 auto;
+		font-size: 22px;
+	}
+	.section3 p{
+		font-size: 20px;
+	}
+	.reworkArrow{
+		position: absolute;
+		margin: 41px 0 0 300px;
+	}
+	.crumple{
+		position: relative;
+		margin-right: 126px;
+		margin-top: 0; 
+	}
+	.quotes{
+		position: relative;
+		width: 530px;
+		clear: both;
+		margin: 0 auto;
+		float: none;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 768px){
+	.mainWrap{
+		width: 768px;
+	}
+	#collab, #millions, .built, .rework, .nuts{
+	font-weight: 500;
+	  font-size: 40px;
+	}
+	.squareWrap{
+		width: 640px;
+	}
+	.square{
+		margin:	10px 13px;
+	}
+	.people{
+		margin-left: 5px;
+		margin-top: 119px;
+	}
+	.loyal{
+		margin: 139px 20px 0;
+	}
+	.loyal2{
+		margin: 0 20px;
+	}
+	.arrow{
+		margin-top: -19px;
+		margin-left: 146px;
+	}
+	.companies{
+		background-size: contain;
+		width: 97%;
+	}
+	.column{
+		width: 600px;
+		font-family: arial;
+		margin: 0 auto;
+		font-size: 22px;
+		float: none;
+	}
+	.section3 p{
+		font-size: 20px;
+	}
+	.rework{
+		width: 760px;
+	}
+	.reworkArrow{
+		position: absolute;
+		margin: 41px 0 0 430px;
+	}
+	.book{
+		margin-left: 90px;
+	}
+	.crumple{
+		position: relative;
+		margin-right: 126px;
+		margin-top: 0; 
+	}
+	.quotes{
+		position: relative;
+		width: 530px;
+		clear: both;
+		margin: 0 auto;
+		float: none;
+	}
 
+}
 
